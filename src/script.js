@@ -18,3 +18,25 @@ if (nav) {
     });
   }
 }
+
+
+
+function scrollTo(element) {
+window.scroll({
+    behavior: 'smooth',
+    left: 0,
+    top: element.offsetTop
+});
+}
+
+document.getElementById("Education-link").addEventListener('click', () => {
+scrollTo(document.getElementById("Education"));
+});
+
+document.getElementById("Skills-link").addEventListener('click', () => {
+scrollTo(document.getElementById("Skills"));
+});
+
+document.getElementById("Contact-link").addEventListener('click', () => {
+scrollTo(document.getElementById("Contact"));
+}); 
