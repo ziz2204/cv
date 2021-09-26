@@ -1,0 +1,56 @@
+:root {
+    --bg-dark: #030303;
+    --dark-red: #710707;
+    --font-gold: #9D8665;
+    --white: #FFFFFF;
+}
+
+.container {
+    padding: 0 40px;
+}
+
+/** Header styles */
+header {
+    background-color: var(--bg-dark);
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo__text {
+    color: var(--white);
+    font-family: "Forum", serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-left: 25px;
+    letter-spacing: 5px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.nav-menu a { 
+    text-decoration: none;
+    color: var(--white);
+    margin-left: 55px;
+    font-size: 22px;
+}
+
+.nav-menu a:hover {
+    color: var(--font-gold);
+}
+
+
+
